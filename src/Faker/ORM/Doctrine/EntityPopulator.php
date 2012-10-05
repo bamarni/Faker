@@ -6,7 +6,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata;
 
 /**
- * Service class for populating a table through a Propel ActiveRecord class.
+ * Service class for populating a table through a Doctrine Entity class.
  */
 class EntityPopulator
 {
