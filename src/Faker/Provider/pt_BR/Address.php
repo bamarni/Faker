@@ -6,7 +6,7 @@ class Address extends \Faker\Provider\Address
 {
 	protected static $cityPrefix = array('Norte', 'Leste', 'Oeste', 'Sul', 'Nova', 'Lago', 'Porto');
 	protected static $citySuffix = array('cidade', 'ilha', 'vila', 'vista', 'forte', 'paraíso', 'lado');
-	protected static $buildingNumber = array('#####', '####', '###');
+	protected static $buildingNumber = array('########');
 	protected static $streetSuffix = array(
 		'Aeroporto','Alameda','Área','Avenida','Campo','Chácara','Colônia','Condomínio','Conjunto','Distrito','Esplanada','Estação','Estrada','Favela','Fazenda','Feira','Jardim','Ladeira','Lago','Lagoa','Largo','Loteamento','Morro','Núcleo','Parque','Passarela','Pátio','Praça','Quadra','Recanto','Residencial','Rodovia','Rua','Setor','Sítio','Travessa','Trecho','Trevo','Vale','Vereda','Via','Viaduto','Viela','Vila'
 	);
